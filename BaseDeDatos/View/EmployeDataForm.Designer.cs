@@ -184,6 +184,7 @@
             Controls.Add(label1);
             Name = "EmployeDataForm";
             Text = "Datos de Empleado";
+            Load += EmployeDataForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }

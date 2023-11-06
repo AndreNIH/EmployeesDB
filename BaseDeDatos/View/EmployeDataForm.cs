@@ -49,7 +49,6 @@ namespace BaseDeDatos
                 hireDatePicker.Value = employeeRecords[0].HireDate;
                 birthDatePicker.Value = employeeRecords[0].BirthDate;
                 genderBox.SelectedIndex = employeeRecords[0].Gender;
-
             }
         }
 
@@ -88,10 +87,8 @@ namespace BaseDeDatos
 
         }
 
-        protected override void OnLoad(EventArgs e)
+        private void EmployeDataForm_Load(object sender, EventArgs e)
         {
-            base.OnLoad(e);
-            genderBox.SelectedIndex = 0;
             _employeeController.RefreshView();
         }
     }
