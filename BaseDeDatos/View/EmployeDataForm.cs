@@ -72,11 +72,11 @@ namespace BaseDeDatos
 
                 if (_updateMode)
                 {
-                    _employeeModel.Update(_employeeId.Value, employee);
+                    _employeeController.Update(_employeeId.Value, employee);
                 }
                 else
                 {
-                    _employeeModel.Create(employee);
+                    _employeeController.Create(employee);
                 }
                 this.Close();
             }
