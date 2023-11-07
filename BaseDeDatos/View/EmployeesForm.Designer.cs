@@ -147,7 +147,7 @@
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "EmployeesForm";
-            Text = "EmployeesForm";
+            Text = "Empleados";
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             ResumeLayout(false);
